@@ -1,0 +1,8 @@
+path: datasets  # Root directory
+train: train/images
+val: valid/images
+test: test/images  # <--- Verify this folder actually exists!
+
+# Classes
+nc: 1
+names: ['drone']
